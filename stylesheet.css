@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 300px;
+}
+
+.link {
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
+.one {
+    background-color: #1F2937;
+    padding: 100px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.signup1 {
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 0px;
+    color: #FFFFFF;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    max-width: 200px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 100px 300px;
+}
+
+.three{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.four{
+    margin: 100px auto;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+    align-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 140px;
+}
+
+.signup2 {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #FFFFFF; 
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 40px 0;
+}
